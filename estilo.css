@@ -1,0 +1,146 @@
+/*font-family: 'Shadows Into Light', cursive:
+font-family: 'Indie Flower', cursive;
+*/
+
+
+#contenidos{
+width: 1000px;
+height: auto;
+margin: auto;
+position: relative;
+}
+
+/*ETIQUETAS*/
+
+body{
+background-image: url(../img/Fondo III.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: #133DF4;
+margin-left: 15px;
+font-size: 20px;
+text-align: center;
+}	
+
+h2{
+font-family: 'Indie Flower', cursive;
+color: #133DF4;
+margin-left: 80px;
+font-size: 18px;	
+margin-top: 60px;
+text-align: left;
+}
+
+h3{
+font-family: 'Indie Flower', cursive;
+color: #F46D13;
+margin-left: 15px;
+font-size: 20px;	
+margin-top: 120px;
+margin-bottom: 5px;
+text-align: center;
+}
+
+h4{
+font-family: 'Shadows Into Light', cursive;
+color: #F2F9F6;
+font-size: 12px;
+margin-top: 12px;
+text-align: center;
+}
+
+form {
+ width: 200px;
+ margin: auto;
+ height: 200px;
+ position: absolute;
+ top: 40%; 
+ left: 44%;
+ padding: 1px;
+ }
+
+input{
+display: block;
+padding: 5px;
+width: 80%;
+margin: 10px 0;
+font-size: 20px;
+}
+
+input[type="submit"]{
+background: linear-gradiente(#FFDA63, #FFB940);
+border: 1;
+color: #AF9E9E;
+opacity: 0.8;
+cursor: pointer;
+margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+opacity: 1;
+}
+
+input[type="submit"]:active{
+transform: scale(0.95);
+}
+
+
+header{
+width: 1000px;
+height: 130px;
+background: rgba(255, 255, 255, 3,5);
+}
+
+nav{
+width: 1000px;
+height: 30px;
+}
+
+a{text-decoration:none;}
+
+ul{
+margin: auto;
+padding-top: 4px;
+margin-left: 30px;
+}
+
+li{
+float: left;
+list-style-type: none;
+padding: 10px;
+background: #DFA417;
+margin: 5px;
+font-size: 15px;
+border-radius: 10px;
+box-shadow: 0 0 10px white inset;
+}
+
+footer{
+width: 800px;
+height: 35px;
+background: #6583F2;
+float: left;
+text-align: center;
+margin-top: 700px;
+border-radius: 5px;
+margin-left: 85px;
+margin-bottom: 10px;
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color:  white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 5px white;}
+.menu:active{color: white; text-decoration: none;}
+
+
+/*SEUDO CLASES*/	
